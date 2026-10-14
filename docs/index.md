@@ -1,9 +1,8 @@
 # Linux Handbook
 
-Välkommen! Det här är mitt personliga uppslagsverk för Linux.
+Ett personligt uppslagsverk för Linux – en samling kunskap, kommandon och praktiska exempel som jag använder och lär mig längs vägen.
 
-Här samlar jag kunskap som jag faktiskt använder eller har lärt mig: begrepp,
-kommandon, praktiska exempel och felsökningsmetoder inom bland annat:
+## Ämnen
 
 - Linux-grunder och terminalen
 - Kommandon och verktyg
