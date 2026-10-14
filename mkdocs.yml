@@ -1,0 +1,48 @@
+site_name: Linux Handbook
+site_description: Ett personligt uppslagsverk för Linux, kommandon, systemadministration, nätverk, Docker och felsökning
+
+theme:
+  name: material
+  language: sv
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    # Ljust tema
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Byt till mörkt tema
+    # Mörkt tema
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Byt till ljust tema
+
+plugins:
+  - search:
+      lang:
+        - sv
+        - en
+
+# Navigeringen anges explicit. Lägg till nya kategorier och artiklar här
+# i takt med att de skrivs.
+nav:
+  - Start: index.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences

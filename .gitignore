@@ -1,0 +1,35 @@
+# Genererad webbplats (mkdocs build)
+site/
+
+# Cache
+.cache/
+__pycache__/
+*.py[cod]
+
+# Python-miljöer
+.venv/
+venv/
+
+# Miljöfiler och hemligheter
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.csr
+
+# Editorer och operativsystem
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Temporära filer och loggar
+*.tmp
+*.bak
+*.log
