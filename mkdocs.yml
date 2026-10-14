@@ -35,6 +35,41 @@ plugins:
 # i takt med att de skrivs.
 nav:
   - Start: index.md
+  - Terminal & kommandon:
+      - pwd: terminal/pwd.md
+      - ls: terminal/ls.md
+      - cd: terminal/cd.md
+      - mkdir: terminal/mkdir.md
+      - cp: terminal/cp.md
+      - mv: terminal/mv.md
+      - rm: terminal/rm.md
+  - Filsystem & rättigheter:
+      - chmod: filsystem/chmod.md
+      - chown: filsystem/chown.md
+      - sudo: filsystem/sudo.md
+      - find: filsystem/find.md
+      - ln: filsystem/ln.md
+  - System & processer:
+      - top: system/top.md
+      - ps: system/ps.md
+      - kill: system/kill.md
+      - systemctl: system/systemctl.md
+      - journalctl: system/journalctl.md
+      - df: system/df.md
+      - free: system/free.md
+  - Nätverk & felsökning:
+      - ip: natverk/ip.md
+      - ping: natverk/ping.md
+      - curl: natverk/curl.md
+      - ss: natverk/ss.md
+      - dig: natverk/dig.md
+      - traceroute: natverk/traceroute.md
+  - Paket & fjärråtkomst:
+      - apt: paket-fjarratkomst/apt.md
+      - ssh: paket-fjarratkomst/ssh.md
+      - scp: paket-fjarratkomst/scp.md
+      - tar: paket-fjarratkomst/tar.md
+      - grep: paket-fjarratkomst/grep.md
 
 markdown_extensions:
   - admonition
